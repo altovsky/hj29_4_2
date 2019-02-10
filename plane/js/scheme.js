@@ -22,7 +22,8 @@ function getScheme(event) {
 }
 
 function reCalculate() {
-  totalPax.textContent = document.querySelectorAll('.adult').length + document.querySelectorAll('.half').length;
+  totalPax.textContent = document.querySelectorAll('.adult').length +
+                         document.querySelectorAll('.half').length;
   totalAdult.textContent = document.querySelectorAll('.adult').length;
   totalHalf.textContent = document.querySelectorAll('.half').length;
 }

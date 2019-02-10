@@ -36,7 +36,7 @@ function createComment(comment) {
     createElement('div', { class: 'comment-block' }, [
       createElement('p', { class: 'comment-text' }, `${comment.text}`),
       createElement('div', { class: 'bottom-comment' }, [
-        createElement('div', { class: 'comment-date' }, `${new Date(comment.date).toLocaleString('ru-Ru')}`), ///
+        createElement('div', { class: 'comment-date' }, `${new Date(comment.date).toLocaleString('ru-Ru')}`),
         createElement('ul', { class: 'comment-actions' }, [
           createElement('li', { class: 'complain' }, `Пожаловаться`),
           createElement('li', { class: 'reply' }, `Ответить`)
